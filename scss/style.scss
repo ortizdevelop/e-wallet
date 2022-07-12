@@ -366,26 +366,63 @@ body{
   img{
     transform: translate(750px, -520px);
   }
-
-  &__about-img {
-    
-  }
+ }
 
   &__about-bottom {
+    border: 1px solid blue;
+    transform: translate(0, -550px);
   }
 
   &__about-bottom-img {
+    .photo{
+      transform: translateX(51px);
+    }
+
+    .arrow{
+      transform: translate(-270px, 170px);
+    }
   }
 
   &__about-bottom-text {
+    border: 1px solid red;
+    width: 580px;
+    height: 354px;
+    transform: translate(850px, -250px);
+
+    .bottom-text__title{
+      font-size: 67px;
+      width: 490px;
+      height: 115px;
+      margin-bottom: 31px;
+      span{
+        color: $color2;
+      }
+    }
+
+    .bottom-text__text{
+      font-size: 21px;
+      color: #676767;
+    }
   }
-}
-.list {
-}
-.icon {
-}
-.text {
-}
+
+  &__about-bottom-link {
+    transform: translate(880px, -330px);
+    
+    span{
+      color: $color3;
+      font-size: 33px;
+    }
+    &::before{
+      content: '';
+      width: 130px;
+      height: 17px;
+      background-color: $color2;
+      display: inline-block;
+      transform: translate(129px, 5px);
+      z-index: -1;
+      position: relative;
+    }
+  }
 }
 
 
