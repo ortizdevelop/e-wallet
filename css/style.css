@@ -79,6 +79,7 @@ body {
   height: 5528px;
   background-color: #dbeff0;
   font-family: 'Bebas Neue', cursive;
+  margin: 0 auto;
 }
 
 .container {
@@ -296,4 +297,83 @@ body {
   display: flex;
   width: 1320px;
   height: 365px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transform: translateX(120px);
+          transform: translateX(120px);
+  text-align: center;
+  background-color: #cfe5e6;
+  border-radius: 20px;
+  margin-bottom: 120px;
+}
+
+.content-main__info ul li {
+  position: relative;
+  line-height: 40px;
+  font-size: 21px;
+  font-weight: bold;
+  letter-spacing: 1.26px;
+}
+
+.content-main__info ul li span {
+  color: #676767;
+  font-weight: normal;
+}
+
+.content-main__about p {
+  width: 562px;
+  height: 115px;
+  font-size: 67px;
+  line-height: 1;
+  margin-bottom: 31px;
+  margin-left: 140px;
+}
+
+.content-main__about .about-color {
+  color: #fe5c2d;
+}
+
+.content-main__about .about-text {
+  width: 565px;
+  height: 82px;
+  font-size: 21px;
+  color: #676767;
+}
+
+.content-main__about .about-link {
+  margin-left: 15px;
+  z-index: 3;
+}
+
+.content-main__about .about-link a {
+  width: 125px;
+  height: 24px;
+  z-index: 3;
+}
+
+.content-main__about .about-link span {
+  color: #000000;
+  font-size: 33px;
+  z-index: 3;
+}
+
+.content-main__about .about-link::before {
+  content: '';
+  width: 130px;
+  height: 17px;
+  background-color: #fe5c2d;
+  display: inline-block;
+  -webkit-transform: translate(125px, 5px);
+          transform: translate(125px, 5px);
+  z-index: -1;
+  position: relative;
+}
+
+.content-main__about img {
+  border: 1px solid blue;
+  -webkit-transform: translate(750px, -380px);
+          transform: translate(750px, -380px);
 }
