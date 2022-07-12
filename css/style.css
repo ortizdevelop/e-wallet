@@ -373,7 +373,6 @@ body {
 }
 
 .content-main__about img {
-  border: 1px solid blue;
-  -webkit-transform: translate(750px, -380px);
-          transform: translate(750px, -380px);
+  -webkit-transform: translate(750px, -520px);
+          transform: translate(750px, -520px);
 }
