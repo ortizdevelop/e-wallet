@@ -124,8 +124,8 @@ body {
 
 .header-menu__img {
   position: absolute;
-  -webkit-transform: translate(330px, -460px);
-          transform: translate(330px, -460px);
+  -webkit-transform: translate(320px, -460px);
+          transform: translate(320px, -460px);
   z-index: 1;
 }
 

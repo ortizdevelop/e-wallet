@@ -131,7 +131,7 @@ body{
 
   &__img {
     position: absolute;
-    transform: translate(330px, -460px);
+    transform: translate(320px, -460px);
     z-index: 1;
 
     img:nth-child(2){
@@ -238,5 +238,39 @@ body{
       box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
     }
   }
+}
+
+
+.content-main {
+
+  &__title {
+  }
+
+  &__info {
+  }
+
+  &__about {
+  }
+
+  &__about-text {
+  }
+
+  &__about-img {
+  }
+
+  &__about-bottom {
+  }
+
+  &__about-bottom-img {
+  }
+
+  &__about-bottom-text {
+  }
+}
+.list {
+}
+.icon {
+}
+.text {
 }
 
