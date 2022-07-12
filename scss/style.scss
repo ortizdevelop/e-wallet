@@ -147,7 +147,7 @@ body{
     }
   }
   .burger-menu {
-    transform:translateX(650px);
+    transform:translateX(650px); //TODO: Доделать меню.
   }
   
   &__info {
@@ -426,3 +426,43 @@ body{
 }
 
 
+.content-bottom {
+
+  &__row {
+  }
+
+  &__features {
+    background-color: #cfe5e6;
+    transform: translateY(-790px);
+  }
+
+  &__features-title {
+  }
+
+  &__features-info {
+  }
+
+  &__features-icons {
+  }
+
+  &__features-link {
+  }
+
+  &__download {
+  }
+
+  &__download-title {
+  }
+
+  &__download-text {
+  }
+
+  &__download-subtitle {
+  }
+
+  &__download-links {
+  }
+
+  &__download-img {
+  }
+}

@@ -438,3 +438,9 @@ body {
   z-index: -1;
   position: relative;
 }
+
+.content-bottom__features {
+  background-color: #cfe5e6;
+  -webkit-transform: translateY(-790px);
+          transform: translateY(-790px);
+}
