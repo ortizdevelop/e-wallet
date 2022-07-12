@@ -273,3 +273,27 @@ body {
   -webkit-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
 }
+
+.content-main__title {
+  margin: 93px 0 66px 0;
+  display: inline-block;
+  width: 473px;
+  height: 115px;
+  -webkit-transform: translateX(450px);
+          transform: translateX(450px);
+  font-size: 67px;
+  line-height: 1;
+  text-align: center;
+}
+
+.content-main__title span {
+  color: #fe5c2d;
+}
+
+.content-main__info ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1320px;
+  height: 365px;
+}

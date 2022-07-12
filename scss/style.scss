@@ -271,9 +271,27 @@ body{
 .content-main {
 
   &__title {
+    margin: 93px 0 66px 0;
+    display: inline-block;
+    width: 473px;
+    height: 115px;
+    transform: translateX(450px);
+    font-size: 67px;
+    line-height: 1;
+    text-align: center;
+
+    span{
+      color: $color2;
+    }
+
   }
 
   &__info {
+    ul{
+      display: flex;
+      width: 1320px;
+      height: 365px;
+    }
   }
 
   &__about {
