@@ -774,6 +774,11 @@ body{
       background-color: $color4;
       transition-duration: 0.5s;
     }
+    
+    &:active{
+      position: relative;
+      top: 2.5px;
+    }
   }
   
 }

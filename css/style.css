@@ -808,6 +808,11 @@ body {
           transition-duration: 0.5s;
 }
 
+.author span:active {
+  position: relative;
+  top: 2.5px;
+}
+
 .media {
   display: -webkit-box;
   display: -ms-flexbox;
