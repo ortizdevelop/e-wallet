@@ -498,6 +498,20 @@ body {
           transform: translate(260px, 46px);
 }
 
+.content-bottom__features-info p {
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+  padding: 20px;
+}
+
+.content-bottom__features-info p:hover {
+  background-color: #fe5c2d;
+  border-radius: 10px;
+  color: #fff;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
 .content-bottom__features-icons {
   width: 1055px;
   height: 345px;

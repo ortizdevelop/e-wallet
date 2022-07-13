@@ -488,6 +488,18 @@ body{
     text-align: center;
     color: #676767;
     transform: translate(260px, 46px);
+
+    p{
+      transform: translateY(-20px);
+      padding: 20px;
+
+      &:hover{
+        background-color: $color2;
+        border-radius: 10px;
+        color: $color4;
+        transition-duration: 0.5s;
+      }
+    }
   }
 
 
