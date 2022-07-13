@@ -91,9 +91,8 @@ body{
   margin: 0 auto;
 }
 
-.container {
-  border: 1px solid red;
-}
+// .container {
+// }
 
 
 .header-menu {
@@ -369,7 +368,6 @@ body{
  }
 
   &__about-bottom {
-    border: 1px solid blue;
     transform: translate(0, -550px);
   }
 
@@ -384,7 +382,6 @@ body{
   }
 
   &__about-bottom-text {
-    border: 1px solid red;
     width: 580px;
     height: 354px;
     transform: translate(850px, -250px);
@@ -440,7 +437,6 @@ body{
     width: 549px;
     height: 155px;
     font-size: 67px;
-    border: 1px solid red;
     transform: translateX(460px);
 
     p{
@@ -465,7 +461,6 @@ body{
   &__features-icons {
     width: 1055px;
     height: 345px;
-    border: 1px solid greenyellow;
     transform: translate(180px, 80px);
     
     ul{
@@ -512,7 +507,6 @@ body{
   }
 
   &__download-title {
-    border: 1px solid red;
     font-size: 67px;
     line-height: 1;
     width: 552px;
@@ -609,47 +603,89 @@ body{
     height: 276px;
     background-color: #cfe5e6;
     transform: translate(56px, -1300px);
-
-    border: 5px solid aqua;
   }
 
   &__logo {
+    margin-left: 59px;
+    padding-top: 30px;
   }
 
-  &__links {
-  }
+  // &__links {
+    
+  // }
 
   &__contact {
+    margin-left: 59px;
+    font-size: 32.5px;
+    color: $color4;
+    width: 230px;
+    font-weight: 800;
   }
 
-  &__author {
-  }
+  // &__author {
+  // }
 
-  &__media {
-  }
+  // &__media {
+  // }
 }
-.container {
-}
-.footer-logo {
-}
+// .container {
+// }
+// .footer-logo {
+// }
 .footer-links {
+  display: inline-block;
+  font-size: 17px;
+  letter-spacing: 2.72px;
+  margin-right: 20px;
+  transform: translate(900px, -98px);
+
+  p{
+    color: $color3;
+  }
 }
 .number1 {
+  width: 105px;
+  margin-bottom: 10px;
+  background-color: #000000;
 }
 .number2 {
+  width: 147px;
+  background-color: #000000;
 }
 .author {
+  text-align: center;
+  font-size: 20px;
+  transform: translateY(-39px);
+
+  span{
+    color: $color4;
+    padding: 1px 5px 1px 5px;
+    line-height: 1.5;
+    border-radius: 10px;
+    background-color: $color2;
+
+    &:hover{
+      color: $color2;
+      border-radius: 10px;
+      background-color: $color4;
+      transition-duration: 0.5s;
+    }
+  }
+  
 }
 .media {
+  display: flex;
 }
 .media-list {
+  margin-right: 12px;
+  transform: translate(1121px, -80px);
 }
-.media-icon {
-}
-.media-icon1 {
-}
-.media-icon2 {
-}
-.media-icon3 {
-}
+// .media-icon {
+// }
+// .media-icon1 {
+// }
+// .media-icon2 {
+// }
+// .media-icon3 {
+// }
 
