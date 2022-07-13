@@ -438,6 +438,8 @@ body{
     height: 155px;
     font-size: 67px;
     transform: translateX(460px);
+    padding-top: 62px;
+    margin-bottom: 46px;
 
     p{
       text-align: center;
@@ -458,16 +460,89 @@ body{
     transform: translate(260px, 46px);
   }
 
-  &__features-icons {
-    width: 1055px;
-    height: 345px;
-    transform: translate(180px, 80px);
-    
-    ul{
-      display: flex;
-      justify-content: space-around;
-    }
+
+		&__features-icons {
+      width: 1055px;
+      height: 345px;
+      transform: translate(220px, 80px);
+      margin-top: 76px;
+      margin-bottom: 250px;
+		}
+
+.features-icon {
+}
+.icons-top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.icon-text{
+  font-size: 21px;
+  line-height: 75px;
+  letter-spacing: 3.78px;
+  color: #323e44;
+  text-align: center;
+  opacity: 0.7;
+
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 309px;
+
+  &:hover{
+    color: $color2;
+    transition-duration: 0.3s;
   }
+}
+
+.icons-down {
+  width: 950px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transform: translateX(70px);
+}
+
+.icon-text1{
+  transform: translate(-100px, 90px);
+}
+
+.icon-text2{
+  transform: translate(-104px, 90px);
+}
+
+.icon-text3{
+  transform: translate(-100px, 90px);
+}
+
+.icon-text4{
+  transform: translate(-100px, 90px);
+}
+
+.icon-text5{
+  transform: translate(-100px, 90px);
+}
+
+.icon-text6{
+  transform: translate(-115px, 90px);
+}
+
+.icon-text7{
+  transform: translate(-115px, 90px);
+}
+
+.icon-text8{
+  transform: translate(-115px, 90px);
+}
+
+.icon-text9{
+  transform: translate(-115px, 90px);
+}
+
 
   &__features-link {
     width: 186px;
@@ -561,11 +636,6 @@ body{
     }
   }
 
-  .content-bottom {
-
-		// &__download-links {
-		// }
-}
 .download-links {
 
 		// &__qr {
