@@ -641,6 +641,12 @@ body {
   color: #000000;
 }
 
+.footer-links p:nth-child(1):hover {
+  color: #fe5c2d;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+
 .number1 {
   width: 105px;
   margin-bottom: 10px;

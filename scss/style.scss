@@ -642,6 +642,13 @@ body{
   p{
     color: $color3;
   }
+
+  p:nth-child(1){
+    &:hover{
+      color: $color2;
+      transition-duration: 0.2s;
+    }
+  }
 }
 .number1 {
   width: 105px;
