@@ -373,7 +373,7 @@ body {
 .content-main__about .about-link:hover::before {
   content: '';
   height: 32px;
-  background-color: #b7dfe2;
+  background-color: #fff;
   -webkit-transition-duration: 0.3s;
           transition-duration: 0.3s;
 }
@@ -452,7 +452,7 @@ body {
 .content-main__about-bottom-link:hover::before {
   content: '';
   height: 32px;
-  background-color: #b7dfe2;
+  background-color: #fff;
   -webkit-transition-duration: 0.3s;
           transition-duration: 0.3s;
 }
